@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name           Web.de Plus > Instant Redirect
+// @name           Web.de Plus > Instant Link Redirect
 // @version        0.1.0
 // @description    Sofortige Weiterleitung beim Klicken eines Links
 // @namespace      https://github.com/Sv443/Web.de-Plus
@@ -46,15 +46,23 @@ var debug = false;
     if(window.location.href.toLowerCase().includes("/sv443/web.de-plus"))
     {
         document.addEventListener("DOMContentLoaded", function() {
-            document.getElementsByTagName("img").forEach(function(el) {
+            var imgTags = document.getElementsByTagName("img");
+
+            for(var i = 0; i < imgTags.length; i++)
+            {
+                var el = imgTags[i];
                 if(el.alt == "ilr-nein")
-                    el.src = "https://img.shields.io/badge/ja-%E2%9C%93-brightgreen";
-            });
+                {
+                    el.src = "https://camo.githubusercontent.com/04ad962ec94024ab03a6cd66d37eaf990bde2a08/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f6a612d2545322539432539332d627269676874677265656e";
+                    el.alt = "ilr-ja";
+                }
+            }
         });
     }
 
+    var foundUrl = false;
+
     var instantRedirect = function() {
-        var foundUrl = false;
         if(!window.location.href.includes("?"))
             return;
 
