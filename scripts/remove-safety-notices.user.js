@@ -35,6 +35,7 @@ var debug = true;
                 }
             }
         });
+        return;
     }
 
     if(window.location.href.toLowerCase().includes("remindlogout"))

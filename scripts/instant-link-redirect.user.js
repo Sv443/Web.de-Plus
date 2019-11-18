@@ -59,6 +59,7 @@ var debug = false;
                 }
             }
         });
+        return;
     }
 
     var foundUrl = false;
