@@ -44,6 +44,14 @@ var debug = false;
     };
 
     if(window.location.href.toLowerCase().includes("/sv443/web.de-plus"))
+    {
+        document.addEventListener("DOMContentLoaded", function() {
+            document.getElementsByTagName("img").forEach(function(el) {
+                if(el.alt == "ilr-nein")
+                    el.src = "https://img.shields.io/badge/ja-%E2%9C%93-brightgreen";
+            });
+        });
+    }
 
     var instantRedirect = function() {
         var foundUrl = false;
