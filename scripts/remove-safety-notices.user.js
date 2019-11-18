@@ -21,6 +21,6 @@ var debug = true;
     if(debug)
         alert("[DBG] - RemoveSafetyNotices: Redirecting");
 
-    if(window.location.href.includes("remindlogout"))
-        window.location.replace(window.location.href.replace("/remindlogout", "/mail"));
+    if(window.location.href.toLowerCase().includes("remindlogout"))
+        window.location.replace(window.location.href.toLowerCase().replace("/remindlogout", "/mail"));
 })();

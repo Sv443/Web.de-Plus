@@ -7,6 +7,7 @@
 // @license        MIT
 // @copyright      2019, Sv443 (https://sv443.net/)
 // @match          http*://*.deref-web-02.de/*
+// @match          http*://github.com/Sv443/Web.de-Plus*
 // @icon           https://raw.githubusercontent.com/Sv443/Web.de-Plus/master/icons/icon_1200x1200.png
 // @run-at         document-start
 // @connect        self
@@ -41,6 +42,8 @@ var debug = false;
 
         return qstrObj;
     };
+
+    if(window.location.href.toLowerCase().includes("/sv443/web.de-plus"))
 
     var instantRedirect = function() {
         var foundUrl = false;
