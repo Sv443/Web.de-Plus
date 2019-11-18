@@ -14,7 +14,6 @@
 // @grant          GM_openInTab
 // @grant          unsafeWindow
 // @grant          window.close
-// @grant          window.focus
 // ==/UserScript==
 
 var debug = false;
@@ -58,8 +57,7 @@ var debug = false;
 
             if(redirUrl != undefined)
             {
-                var redirWindow = GM_openInTab(redirUrl);
-
+                GM_openInTab(redirUrl);
                 window.close();
             }
         }
