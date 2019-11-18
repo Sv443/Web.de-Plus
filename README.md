@@ -31,7 +31,7 @@ Damit sich die Installationsstatus-Anzeige aktualisiert, muss die Seite neu gela
 <br><br><br>
 
 ## Lizenz:
-Alle Web.de-Plus Scripts stehen unter der MIT Lizenz.  
+Alle Web.de-Plus Module stehen unter der MIT Lizenz.  
 Das bedeutet, dass das Modifizieren, Verteilen und Monetarisieren erlaubt sind, solange die Lizenz beibehalten wird.  
 Du findest die Details der Lizenz [hier](https://sv443.net/LICENSE).  
   
