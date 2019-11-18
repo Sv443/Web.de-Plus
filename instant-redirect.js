@@ -7,7 +7,7 @@
 // @license        MIT
 // @copyright      2019, Sv443 (https://sv443.net/)
 // @match          http*://*.deref-web-02.de/*
-// @icon           https://img.ui-portal.de/cd/ci/web.de/favicon.ico
+// @icon           https://raw.githubusercontent.com/Sv443/Web.de-Plus/master/icons/icon_1200x1200.png
 // @run-at         document-start
 // @connect        self
 // @connect        *
