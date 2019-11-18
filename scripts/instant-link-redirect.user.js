@@ -55,6 +55,7 @@ var debug = false;
                 {
                     el.src = "https://camo.githubusercontent.com/04ad962ec94024ab03a6cd66d37eaf990bde2a08/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f6a612d2545322539432539332d627269676874677265656e";
                     el.alt = "ilr-ja";
+                    el.dataset["canonical-src"] = "https://img.shields.io/badge/ja-%E2%9C%93-brightgreen";
                 }
             }
         });
