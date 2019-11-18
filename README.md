@@ -4,9 +4,9 @@
 
 </td><td>
 
-# Web.de Plus
-## Eine Ansammlung an Verbesserungen für den Mailservice [Web.de](https://web.de/)
-(A collection of various improvements for the German mailing service [Web.de](https://web.de/))
+# Web.de-Plus
+## Eine Ansammlung an Modulen, die den Mailservice [Web.de](https://web.de/) verbessern
+(A collection of modules that improve the German mailing service [Web.de](https://web.de/))
 
 </td></tr></table>
 
@@ -14,24 +14,26 @@
 
 <br><br>
 
-## Zum verwenden der Web.de Plus Scripts benötigst du einen Userscript-Manager. Ich empfehle dazu [Tampermonkey](https://www.tampermonkey.net/).
+## Zum verwenden der Web.de-Plus Module benötigst du einen Userscript-Manager. Ich empfehle dazu [Tampermonkey](https://www.tampermonkey.net/).
 
 
 <br>
 
-## Web.de Plus besteht aus den folgenden Scripts, die nach Bedarf installiert werden können:
+## Web.de-Plus besteht aus den folgenden Modulen, die nach Bedarf installiert werden können:
 
 | Name | Installieren | Beschreibung | Bereits Installiert? |
 | --- | --- | --- | --- |
-| instant-link-redirect | [![Installieren](https://img.shields.io/badge/Installieren-%E2%96%BA-brightgreen)](https://raw.githubusercontent.com/Sv443/Web.de-Plus/master/scripts/instant-link-redirect.user.js) |Sofortige Weiterleitung beim Klicken eines Links - keine lange Wartezeit mehr | ![ilr-nein](https://img.shields.io/badge/nein-%E2%9C%97-red)
-| remove-safety-notices | [![Installieren](https://img.shields.io/badge/Installieren-%E2%96%BA-brightgreen)](https://raw.githubusercontent.com/Sv443/Web.de-Plus/master/scripts/remove-safety-notices.user.js) | Entfernt die lästigen Sicherheitshinweise (wie "bitte loggen Sie sich immer aus") nach dem Login | ![rsn-nein](https://img.shields.io/badge/nein-%E2%9C%97-red) |
+| instant-link-redirect | [![Installieren](https://img.shields.io/badge/Installieren-%E2%96%BA-brightgreen)](https://raw.githubusercontent.com/Sv443/Web.de-Plus/master/scripts/instant-link-redirect.user.js) | Sofortige Weiterleitung beim Klicken eines Links - keine lange Wartezeit mehr | [![ilr-nein](https://img.shields.io/badge/nein-%E2%9C%97-red)](#) |
+| remove-safety-notices | [![Installieren](https://img.shields.io/badge/Installieren-%E2%96%BA-brightgreen)](https://raw.githubusercontent.com/Sv443/Web.de-Plus/master/scripts/remove-safety-notices.user.js) | Entfernt die lästigen Sicherheitshinweise (wie "bitte loggen Sie sich immer aus") nach dem Login | [![rsn-nein](https://img.shields.io/badge/nein-%E2%9C%97-red)](#) |
+
+Damit sich die Installationsstatus-Anzeige aktualisiert, muss die Seite neu geladen werden. Klicke dazu [hier](https://github.com/Sv443/Web.de-Plus).
 
 <br><br><br>
 
 ## Lizenz:
-[![MIT Lizenz](https://img.shields.io/github/license/Sv443/Web.de-Plus)](https://sv443.net/LICENSE)  
-Alle Web.de Plus Scripts stehen unter der MIT Lizenz.  
-Du findest die Details der Lizenz [hier](https://sv443.net/LICENSE)
-
-
-  ![](https://img.shields.io/badge/ja-%E2%9C%93-brightgreen)
+Alle Web.de-Plus Scripts stehen unter der MIT Lizenz.  
+Das bedeutet, dass das Modifizieren, Verteilen und Monetarisieren erlaubt sind, solange die Lizenz beibehalten wird.  
+Du findest die Details der Lizenz [hier](https://sv443.net/LICENSE).  
+  
+Das Web.de-Plus Icon wurde aus dem originalen Web.de Icon erstellt.  
+Dieses gehört der [1&1 Mail & Media GmbH Zweigniederlassung Karlsruhe](https://web.de/impressum/).

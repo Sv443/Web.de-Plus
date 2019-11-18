@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name           Web.de Plus > Remove Safety Notices
+// @name           Web.de-Plus > Remove Safety Notices
 // @version        0.1.0
 // @description    Entfernt die lästigen Sicherheitshinweise nach dem Login
 // @namespace      https://github.com/Sv443/Web.de-Plus
