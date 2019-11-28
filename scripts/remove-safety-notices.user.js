@@ -1,12 +1,13 @@
 // ==UserScript==
 // @name           Web.de-Plus > Remove Safety Notices
-// @version        0.1.0
+// @version        0.1.1
 // @description    Entfernt die lästigen Sicherheitshinweise nach dem Login
 // @namespace      https://github.com/Sv443/Web.de-Plus
 // @author         Sv443
 // @license        MIT
 // @copyright      2019, Sv443 (https://sv443.net/)
 // @match          http*://navigator.web.de/remindlogout*
+// @match          http*://bap.navigator.web.de/remindlogout*
 // @match          http*://github.com/Sv443/Web.de-Plus*
 // @icon           https://raw.githubusercontent.com/Sv443/Web.de-Plus/master/icons/icon_1200x1200.png
 // @run-at         document-start
@@ -14,7 +15,7 @@
 // @connect        *
 // ==/UserScript==
 
-var debug = true;
+var debug = false;
 
 (function() {
     "use strict";
