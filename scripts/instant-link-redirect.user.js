@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name           Web.de-Plus > Instant Link Redirect
-// @version        0.1.0
+// @version        0.1.1
 // @description    Sofortige Weiterleitung beim Klicken eines Links
 // @namespace      https://github.com/Sv443/Web.de-Plus
 // @author         Sv443
