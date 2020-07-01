@@ -36,4 +36,4 @@ Das bedeutet, dass das Modifizieren, Verteilen und Monetarisieren erlaubt sind, 
 Du findest die Details der Lizenz [hier](https://sv443.net/LICENSE).  
   
 Das Web.de-Plus Icon wurde aus dem originalen Web.de Icon erstellt.  
-Dieses gehört der [1&1 Mail & Media GmbH Zweigniederlassung Karlsruhe](https://web.de/impressum/).
+Dieses gehört der [1&1 Mail & Media GmbH](https://web.de/impressum/).
