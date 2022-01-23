@@ -1,3 +1,11 @@
+<div align="center" style="text-align: center;">
+
+## Script will no longer be updated!
+## Dieses Skript wird nicht mehr geupdated!
+
+</div>
+<br><br>
+
 <table><tr><td>
 
 [![icon](https://raw.githubusercontent.com/Sv443/Web.de-Plus/master/icons/icon_200x200.png)](https://github.com/Sv443/Web.de-Plus)
@@ -9,8 +17,6 @@
 (A collection of modules that improve the German mailing service [Web.de](https://web.de/))
 
 </td></tr></table>
-
----
 
 <br><br>
 
